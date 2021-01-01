@@ -1,0 +1,17 @@
+#navbar {
+    background-color: var(--color-primary);
+}
+
+#navbar .nav-link {
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 0.06rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+#navbar .navbar-brand {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}

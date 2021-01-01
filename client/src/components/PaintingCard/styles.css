@@ -1,0 +1,49 @@
+.card {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+}
+.card .imgContainer img {
+    border-radius: 8px;
+    height: 300px;
+    object-fit: cover;
+}
+.card .imgContainer {
+    background-color: var(--color-secondary-light);
+    padding: 4px;
+    border-radius: 8px;
+    position: relative;
+}
+.card .imgContainer .price {
+    position: absolute;
+    bottom: 18px;
+    padding: 14px 48px 0px 18px;
+    background: linear-gradient(to right, var(--color-primary), transparent);
+}
+.card .imgContainer .price p {
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    color: var(--color-secondary);
+}
+
+.card .card-body {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.card .card-body p {
+    margin-bottom: 4px;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+.card .card-body p.description {
+    font-size: 1rem;
+}
+
+.card .card-body .heading {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    color: var(--color-primary);
+}

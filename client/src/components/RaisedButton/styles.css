@@ -1,0 +1,25 @@
+.raisedBtn {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+    border-radius: 25px;
+    /* padding-left: 28px;
+    padding-right: 28px; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 0.9rem;
+}
+
+.raisedBtn:focus,
+.raisedBtn:hover {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-secondary);
+}
+
+.raisedBtn.secondary {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-secondary);
+}

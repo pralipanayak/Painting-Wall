@@ -1,0 +1,18 @@
+#jumbotron {
+    background-color: transparent;
+    background: url('../../assets/bg3.jpg');
+    border-radius: 0px;
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#jumbotron .heading {
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+#jumbotron .paragraph {
+    color: #ffffff;
+}

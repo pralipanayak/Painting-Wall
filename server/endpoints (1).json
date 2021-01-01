@@ -1,0 +1,97 @@
+[
+    {
+        "endpoint": "/api/auh/login",
+        "type": "POST",
+        "description": "Login",
+        "data": {
+            "username": "String",
+            "password": "String"
+        },
+        "authRequired": false
+    },
+    {
+        "endpoint": "/api/auh/signup",
+        "type": "POST",
+        "description": "Create new account",
+        "data": {
+            "first_name": "String",
+            "second_name": "String",
+            "email": "String",
+            "username": "String",
+            "password": "String"
+        },
+        "authRequired": false
+    },
+    {
+        "endpoint": "/api/auh/user",
+        "type": "GET",
+        "description": "Get Logged In user",
+        "authRequired": true
+    },
+    {
+        "endpoint": "/api/users/<uid>",
+        "type": "GET",
+        "description": "Get User Info",
+        "authRequired": false
+    },
+    {
+        "endpoint": "/api/paintings/",
+        "type": "GET",
+        "description": "Get all paintings",
+        "authRequired": false
+    },
+    {
+        "endpoint": "/api/paintings/?user=<uid>",
+        "type": "GET",
+        "description": "Get paintings by uid",
+        "authRequired": false
+    },
+    {
+        "endpoint": "/api/paintings/",
+        "type": "POST",
+        "description": "Add new painting",
+        "authRequired": true,
+        "data": {
+            "title": "String",
+            "description": "String",
+            "price": "Integer",
+            "image": "Image"
+        }
+    },
+    {
+        "endpoint": "/api/paintings/<painting_id>",
+        "type": "GET",
+        "description": "Get painting by painting_id",
+        "authRequired": false
+    },
+    {
+        "endpoint": "/api/paintings/<painting_id>",
+        "type": "PUT",
+        "description": "Update painting by painting_id",
+        "authRequired": true,
+        "data": {
+            "title": "String",
+            "description": "String",
+            "price": "Integer",
+            "image": "Image"
+        }
+    },
+    {
+        "endpoint": "/api/paintings/<painting_id>",
+        "type": "DELETE",
+        "description": "Delete painting by painting_id",
+        "authRequired": true
+    },
+    {
+        "endpoint": "/api/paintings/<painting_id>",
+        "type": "POST",
+        "description": "Save painting request and send email",
+        "data": {
+            "name": "String",
+            "email": "String",
+            "phone": "String",
+            "address": "String"
+        },
+        "authRequired": false
+    }
+]

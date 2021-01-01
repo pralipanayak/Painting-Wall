@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Stardos+Stencil:wght@400;700&display=swap');
+
+:root {
+    --color-primary: #ffba00;
+    --color-primary-light: #ffe2c7;
+    --color-secondary: #1c1a18;
+    --color-secondary-light: #a59583;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
